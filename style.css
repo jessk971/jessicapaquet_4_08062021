@@ -742,10 +742,9 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
     font-size: large;
     font-weight: bolder;
-    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .portfolio-thumb {
