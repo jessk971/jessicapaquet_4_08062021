@@ -745,6 +745,7 @@ h4 {
     color: #FFFFFF!important;
     font-size: large;
     font-weight: bolder;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .portfolio-thumb {
