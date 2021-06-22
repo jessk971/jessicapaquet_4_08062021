@@ -95,6 +95,10 @@ a:hover {
     right: 0;
 }
 
+textarea {
+    margin-top: 1em;
+}
+
 .texture-paper::before {
     background: url("img/rsz_texture-paper.webp");
     background-size: 280px 280px;
