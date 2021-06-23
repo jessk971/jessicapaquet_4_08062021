@@ -1045,6 +1045,13 @@ h4 {
     }
 }
 
+@media(max-width: 425px) {
+    .center-block {
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
@@ -1055,12 +1062,5 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
-    }
-}
-
-@media(min-width: 425px) {
-    .center-block {
-        max-width: 200px;
-        max-height: 200px;
     }
 }
