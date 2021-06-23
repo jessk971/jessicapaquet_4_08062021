@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+img {
+    object-fit: cover;
+}
+
 ol,
 ul {
     line-height: 40px;
