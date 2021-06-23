@@ -1045,17 +1045,17 @@ h4 {
     }
 }
 
-@media(max-width: 425px) {
-    .center-block {
-        max-width: 200px;
-        max-height: 200px;
-    }
-}
-
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+}
+
+@media(max-width: 600px) {
+    .center-block {
+        max-width: 200px;
+        max-height: 200px;
     }
 }
 
