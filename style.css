@@ -7,6 +7,16 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.tc-white1 {
+    color: #F3976C!important;
+    text-align: center;
+}
+
+.tight-width-whitespace {
+    max-width: 600px;
+    margin: auto auto auto auto;
+}
+
 img {
     object-fit: cover;
 }
@@ -40,7 +50,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -49,12 +59,12 @@ a:hover {
 }
 
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+    width: 100%;
+    padding-bottom: 0.5em;
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    margin-top: 2em;
 }
 
 .bloc-md {
@@ -63,6 +73,7 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+    margin: 0;
 }
 
 .bg-center,
@@ -106,6 +117,10 @@ textarea {
 .texture-paper::before {
     background: url("img/rsz_texture-paper.webp");
     background-size: 280px 280px;
+}
+
+.text-center {
+    padding-bottom: 1em;
 }
 
 .b-parallax {
@@ -296,6 +311,11 @@ textarea {
     padding-left: 0;
 }
 
+.row ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -330,15 +350,16 @@ textarea {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
     float: right;
     z-index: 1;
+    list-style-type: none;
 }
 
 .nav>li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: large;
+    margin-left: 1em;
 }
 
 .navbar-nav .open .dropdown-menu>li>a {
@@ -670,7 +691,7 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    width: 100%;
 }
 
 .hero-bloc-text {
@@ -695,11 +716,6 @@ p {
     font-size: large;
 }
 
-.tight-width-whitespace {
-    max-width: 600px;
-    margin: auto auto auto auto;
-}
-
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
@@ -717,6 +733,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    padding-top: 2em;
 }
 
 h2 {
@@ -792,7 +809,9 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: black!important;
+    text-align: center;
+    padding-top: 1em;
 }
 
 .btn-atomic-tangerine {
@@ -843,10 +862,6 @@ h4 {
 }
 
 @media (max-width: 1024px) {
-    .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
