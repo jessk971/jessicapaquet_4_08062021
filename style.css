@@ -32,20 +32,6 @@ button {
     outline: none!important;
 }
 
-a:hover {
-    text-decoration: none;
-    cursor: pointer;
-}
-
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
-
 .bloc {
     width: 100%;
     clear: both;
@@ -74,12 +60,6 @@ a:hover {
 .bloc-sm {
     margin: 0;
     padding-top: 1em;
-}
-
-.now {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .bg-center,
@@ -116,10 +96,6 @@ a:hover {
     right: 0;
 }
 
-textarea {
-    margin-top: 1em;
-}
-
 .texture-paper::before {
     background: url("img/rsz_texture-paper.webp");
     background-size: 280px 280px;
@@ -136,22 +112,6 @@ textarea {
 
 .d-bloc {
     color: rgba(255, 255, 255, .7);
-}
-
-.d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
-}
-
-.d-bloc .icon-round,
-.d-bloc .icon-square,
-.d-bloc .icon-rounded,
-.d-bloc .icon-semi-rounded-a,
-.d-bloc .icon-semi-rounded-b {
-    border-color: rgba(255, 255, 255, .9);
-}
-
-.d-bloc .divider-h span {
-    border-color: rgba(255, 255, 255, .2);
 }
 
 .d-bloc .a-btn,
@@ -767,7 +727,6 @@ p {
     justify-content: space-around;
     flex-direction: row;
     align-content: center;
-    margin-left: 1em;
 }
 
 h2 {
