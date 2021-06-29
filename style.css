@@ -11,6 +11,11 @@
     font-style: italic;
 }
 
+.citation span {
+    font-style: normal;
+    color: black;
+}
+
 .center-block {
     padding-top: 1em;
 }
