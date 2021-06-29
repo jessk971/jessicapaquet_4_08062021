@@ -7,6 +7,14 @@
     font-display: swap;
 }
 
+.citation p {
+    font-style: italic;
+}
+
+.center-block {
+    padding-top: 1em;
+}
+
 body {
     margin: 0;
     padding: 0;
